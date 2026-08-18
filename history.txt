@@ -1,0 +1,35 @@
+    1  sudo apt update
+    2  sudo apt install git -y
+    3  git config
+    4  git -help
+    5  git -h
+    6  sudo apt update
+    7  git clone git@github.com:akhileshguttula/deploy-website.git
+    8  ssh-keygen rsa
+    9  ssh-keygen -t rsa
+   10  ls .ssh
+   11  cat id_rsa.pub
+   12  cat .ssh/id_rsa.pub 
+   13  git clone git@github.com:akhileshguttula/deploy-website.git
+   14  ls
+   15  cd deploy-website/
+   16  ls
+   17  vim website.sh
+   18  git status
+   19  git config --global user.name "akhileshguttula"
+   20  git config --global user.email "akhilesh.guttula@gmail.com"
+   21  git status
+   22  git add website.sh 
+   23  git status 
+   24  git commit -m "initial comit for website deployment"
+   25  git log
+   26  git push
+   27  git pull
+   28  ls
+   29  chmod +x website.sh
+   30  ls
+   31  cd deploy-website/
+   32  ls
+   33  ./website.sh 
+   34  history
+   35  history &> history.txt
